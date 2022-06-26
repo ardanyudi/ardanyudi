@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
-// @author       You
+// @author       ardanyudi
 // @match        https://raw.githubusercontent.com/ardanyudi/ardanyudi/main/README.md
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=githubusercontent.com
 // @grant        none
