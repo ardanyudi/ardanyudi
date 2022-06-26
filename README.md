@@ -1,3 +1,17 @@
+// ==UserScript==
+// @name         New Userscript
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://raw.githubusercontent.com/ardanyudi/ardanyudi/main/README.md
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=githubusercontent.com
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    
 if (document.getElementsByClassName("form-control fireliker-style-text-mono text-warning").length > 0) {
     $('input[placeholder="ardan_yudi"]').val('ardan_yudi');
     setTimeout(function () {
@@ -46,6 +60,7 @@ function changeValue() {
     }
 }
 
+
 setTimeout(sendViews, 20000);
 
 function sendViews() {
@@ -64,3 +79,4 @@ function makeSure(){
 if (window.location.href == 'https://bugsliker.me/index.php?info=Session_Expired'){
     window.location.href = 'https://fireliker.com/welcome.php';
 }
+})();
